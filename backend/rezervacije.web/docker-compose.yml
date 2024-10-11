@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  rezervacije:
+    container_name: rezervacije-backend
+    image: rezervacije-backend
+    ports:
+      - "8000:8000"

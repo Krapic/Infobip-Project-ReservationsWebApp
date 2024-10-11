@@ -1,0 +1,31 @@
+.submit{
+    background-color: #70D8BD;
+}
+
+.dodajNovuUslugu {
+    background-color: #70D8BD; /* Blue background */
+    color: white; /* White text */
+    padding: 25px 25px; /* Some padding */
+    margin: 8px 0; /* A little space at the top and bottom */
+    border: none; /* No border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    width: 83%; /* Full width */
+    opacity: 0.9; /* Add a bit of transparency */
+    transition: 0.3s; /* Add transition for hover effects */
+    border-radius: 15px; /* Rounded corners */
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-left: 48px;
+}
+
+.dodajNovuUslugu:hover {
+    opacity: 1; /* Fully opaque on hover */
+}
+
+.modal {
+    /* Other styles... */
+    width: 70%; /* Adjust as needed */
+    height: 100%; /* Adjust as needed */
+}

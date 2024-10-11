@@ -1,0 +1,43 @@
+.row-class{
+    display: flex;
+    margin-top: 2%;
+    font-size: 15px;
+}
+
+@media (max-width: 831px) {
+    .row-class {
+        display: block;
+        margin-top: 2%;
+        font-size: 15px;
+    }
+}
+
+.bottom-content {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.confirm-button {
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin-right: 2%;
+    width: 200px;
+    font-size: 15px;
+    height: 100%;
+}
+
+.admin-comment{
+    width: 50%;
+    font-size: medium;
+    margin-left: 2%;
+    border-radius: 5px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(-4px);
+}
+
+textarea:focus {
+    outline: none;
+}

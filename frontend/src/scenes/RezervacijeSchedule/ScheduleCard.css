@@ -1,0 +1,8 @@
+.schedule-background{
+    width: 55%;
+    height: 50vh;
+    border-radius: 10px;
+    margin: 10px auto;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(-4px);
+}

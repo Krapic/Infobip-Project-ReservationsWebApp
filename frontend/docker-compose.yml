@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  frontend:
+    container_name: rezervacije-frontend
+    image: rezervacije-frontend
+    ports:
+      - "80:80"
