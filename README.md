@@ -1,4 +1,3 @@
-```markdown
 # Infobip Projekt - Rezervacije Web Aplikacija
 
 Ovaj repozitorij sadrži web aplikaciju za upravljanje rezervacijama, razvijenu u sklopu projekta za Infobip.
@@ -62,4 +61,3 @@ Slobodno pošaljite PR za bilo kakve prijedloge ili poboljšanja.
 
 ## Licenca
 Ovaj projekt je licenciran pod MIT licencom.
-```
