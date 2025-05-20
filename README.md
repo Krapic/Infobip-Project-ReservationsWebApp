@@ -1,63 +1,63 @@
-# Infobip Projekt - Rezervacije Web Aplikacija
+# Infobip Project - Reservations Web Application
 
-Ovaj repozitorij sadrži web aplikaciju za upravljanje rezervacijama, razvijenu u sklopu projekta za Infobip.
+This repository contains a web application for managing reservations, developed as part of a project for Infobip.
 
-## Tehnologije
-- **ASP.NET Core** - Backend aplikacije
-- **Entity Framework Core** - Rad s bazom podataka
-- **Fluent UI** - Frontend komponenta za korisničko sučelje
-- **React** - Frontend framework za razvoj korisničkog sučelja
-- **SQLite** - Korištena baza podataka
+## Technologies
+- **ASP.NET Core** - Backend application
+- **Entity Framework Core** - Database operations
+- **Fluent UI** - Frontend components for user interface
+- **React** - Frontend framework for UI development
+- **SQLite** - Database used
 
-## Funkcionalnosti
-- Kreiranje, uređivanje i brisanje rezervacija
-- Pregled svih rezervacija
-- Implementacija autentifikacije i autorizacije
-- Filtriranje i pretraživanje rezervacija
+## Features
+- Create, edit, and delete reservations
+- View all reservations
+- Authentication and authorization implementation
+- Reservation filtering and searching
 
-## Postavke projekta
+## Project Setup
 
 ### Prerequisites
-- .NET SDK 6.0 ili novija verzija
-- Node.js i npm
+- .NET SDK 6.0 or newer
+- Node.js and npm
 
-### Instalacija
+### Installation
 
-1. Kloniraj repozitorij:
+1. Clone the repository:
    ```bash
    git clone https://github.com/Krapic/Infobip-Projekt-RezervacijeWebApp.git
    ```
-2. Navigiraj u backend direktorij i pokreni aplikaciju:
+2. Navigate to the backend directory and run the application:
    ```bash
    cd backend
    dotnet restore
    dotnet run
    ```
-3. Navigiraj u frontend direktorij i pokreni aplikaciju:
+3. Navigate to the frontend directory and run the application:
    ```bash
    cd frontend
    npm install
    npm start
    ```
 
-### Migracije baze podataka
-Za primjenu migracija baze podataka, koristi sljedeće naredbe:
+### Database Migrations
+To apply database migrations, use the following commands:
 
-1. Generiranje migracije:
+1. Generate migration:
    ```bash
    dotnet ef migrations add InitialCreate
    ```
 
-2. Ažuriranje baze podataka:
+2. Update the database:
    ```bash
    dotnet ef database update
    ```
 
-## Konfiguracija
-Aplikacija koristi SQLite bazu podataka po defaultu, no može se konfigurirati i za korištenje druge baze (npr. SQL Server). Konfiguracija se nalazi u datoteci `appsettings.json`.
+## Configuration
+The application uses SQLite by default but can be configured to use other databases (e.g., SQL Server). Configuration is located in the `appsettings.json` file.
 
-## Doprinosi
-Slobodno pošaljite PR za bilo kakve prijedloge ili poboljšanja.
+## Contributions
+Feel free to submit PRs for any suggestions or improvements.
 
-## Licenca
-Ovaj projekt je licenciran pod MIT licencom.
+## License
+This project is licensed under the MIT License.
